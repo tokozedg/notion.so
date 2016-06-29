@@ -7,7 +7,7 @@
     "start": "electron .",
     "build:macOS": "node_modules/electron-packager/cli.js . Notion --icon=icons/icon.icns --platform=darwin --arch=x64 --out=builds && zip -r builds/Notion-darwin-x64/Notion.zip builds/Notion-darwin-x64/Notion.app"
   },
-  "author": "",
+  "author": "nick@rokkincat.com",
   "license": "ISC",
   "dependencies": {
     "electron-packager": "^7.1.0",
