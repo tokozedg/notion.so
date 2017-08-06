@@ -1,12 +1,13 @@
-## Desktop application for [notion.so](https://www.notion.so) (macOS only)
-
-Download latest version in [releases]().
+## Electron based desktop application for [notion.so](https://www.notion.so) (Linux only as official apps are available for macOS and Windows)
 
 **To Build**
 ```bash
-git clone https://github.com/nickgartmann/notion.so.git
+git clone git@github.com:tokozedg/notion.so.git
 cd notion.so
 npm install
-npm build:macOS
+npm run build
+npm run deb
 ```
-This will create an application in the `builds/` folder and a zip of the app
+
+This will create an application in the `dist/notion-linux-x64` folder and deb
+package in `dist/installers/`.

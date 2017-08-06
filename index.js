@@ -6,7 +6,7 @@ let win;
 
 function createWindow() {
   win = new BrowserWindow({width: 800, height: 600});
-  win.loadURL("http://www.notion.so");
+  win.loadURL("http://notion.so");
   win.on('closed', () => {
     win = null;
   })
