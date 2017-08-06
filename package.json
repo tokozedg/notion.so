@@ -1,12 +1,12 @@
 {
-  "name": "notion",
-  "description": "Electron based desktop app for notion.so",
-  "version": "0.0.1",
+  "name": "notion.so",
+  "description": "Electron based desktop app for notion.so.",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . notion --overwrite --icon=icons/icon.icns --platform=linux --arch=x64 --out=dist",
-    "deb": "electron-installer-debian --config config.deb.json"
+    "build": "electron-packager . notion.so --overwrite --icon=icons/icon.icns --platform=linux --arch=x64 --out=dist",
+    "deb": "npm run build && electron-installer-debian --config config.json"
   },
   "author": "nick@rokkincat.com",
   "license": "ISC",
