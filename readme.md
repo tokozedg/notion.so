@@ -15,3 +15,20 @@ npm run deb
 
 This will create an application in the `dist/notion-linux-x64` folder and deb
 package in `dist/installers/`.
+
+**Color Emoji**
+
+To enable color emoji, I followed instruction commented by Jop on this link:
+* http://www.omgubuntu.co.uk/2016/08/enable-color-emoji-linux-google-chrome-noto
+
+
+```bash
+wget https://noto-website.storage.googleapis.com/pkgs/NotoColorEmoji-unhinted.zip
+sudo unzip NotoColorEmoji-unhinted.zip -d /usr/share/fonts/truetype/noto
+sudo rm /usr/share/fonts/truetype/noto/LICENSE_OFL.txt
+sudo rm /usr/share/fonts/truetype/ancient-scripts/Symbola_hint.ttf
+sudo apt-get remove ttf-ancient-fonts-symbola
+sudo chmod 644 /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf
+fc-cache -f -v
+rm NotoColorEmoji-unhinted.zip
+```
