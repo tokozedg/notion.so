@@ -20,7 +20,7 @@ package in `dist/installers/`.
 
 To enable color emoji, I followed instruction commented by Jop on this link:
 * http://www.omgubuntu.co.uk/2016/08/enable-color-emoji-linux-google-chrome-noto
-
+* https://gist.github.com/BojanStipic/ff0702c2c096749f18a8ec13c60ffe23
 
 ```bash
 wget https://noto-website.storage.googleapis.com/pkgs/NotoColorEmoji-unhinted.zip
@@ -32,3 +32,4 @@ sudo chmod 644 /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf
 fc-cache -f -v
 rm NotoColorEmoji-unhinted.zip
 ```
+
