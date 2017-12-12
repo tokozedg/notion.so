@@ -2,7 +2,7 @@
 
 **Download**
 
-* [`notion.so_1.0.0_amd64.deb`](https://github.com/tokozedg/notion.so/releases/download/v1.0.0/notion.so_1.0.0_amd64.deb)
+* [`notion.so_1.0.1_amd64.deb`](https://github.com/tokozedg/notion.so/releases/download/v1.0.1/notion.so_1.0.1_amd64.deb)
 
 **To Build**
 ```bash
